@@ -3,7 +3,7 @@
 %global ghc_without_dynamic 1
 
 Name:           hsb2hs
-Version:        0.3
+Version:        0.3.1
 Release:        1%{?dist}
 Summary:        Preprocesses a file, adding blobs from files as string literals
 
@@ -50,6 +50,9 @@ file-embed for those who do not want to rely on Template Haskell.
 
 
 %changelog
+* Sun Oct 04 2015 Jens Petersen <petersen@redhat.com> - 0.3.1-1
+- update to 0.3.1
+
 * Tue Jun 23 2015 Jens Petersen <petersen@redhat.com> - 0.3-1
 - update to 0.3
 
