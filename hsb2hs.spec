@@ -2,6 +2,9 @@
 
 %global ghc_without_dynamic 1
 
+# nothing to see here
+%global debug_package %{nil}
+
 Name:           hsb2hs
 Version:        0.3.1
 Release:        1%{?dist}
