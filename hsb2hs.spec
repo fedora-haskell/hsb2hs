@@ -7,7 +7,7 @@
 
 Name:           hsb2hs
 Version:        0.3.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Preprocesses a file, adding blobs from files as string literals
 
 License:        BSD
@@ -53,6 +53,9 @@ file-embed for those who do not want to rely on Template Haskell.
 
 
 %changelog
+* Wed Feb  1 2017 Jens Petersen <petersen@redhat.com> - 0.3.1-2
+- rebuild
+
 * Sun Oct 04 2015 Jens Petersen <petersen@redhat.com> - 0.3.1-1
 - update to 0.3.1
 
