@@ -37,7 +37,7 @@ file-embed for those who do not want to rely on Template Haskell.
 
 %build
 %global cabal cabal
-[ -d "$HOME/.cabal" ] || %cabal update
+%cabal update
 %cabal install --only-dependencies
 %cabal configure --prefix=%{_prefix} --libdir=%{_libdir} --docdir=%{?_pkgdocdir}%{!?_pkgdocdir:%{_docdir}/%{name}-%{version}}
 %cabal build
